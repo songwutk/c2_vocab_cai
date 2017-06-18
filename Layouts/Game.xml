@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2layout>
+    <name>Game</name>
+    <sid>903051343915849</sid>
+    <event-sheet>eGame</event-sheet>
+    <size>
+        <width>1280</width>
+        <height>768</height>
+    </size>
+    <margins>
+        <horizontal>500</horizontal>
+        <vertical>500</vertical>
+    </margins>
+    <unbounded-scrolling>0</unbounded-scrolling>
+    <layers>
+        <layer name="bgGame" sid="643190398437559">
+            <initially-visible>1</initially-visible>
+            <background-color>0,102,255</background-color>
+            <transparent>0</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="game" sid="341001243358876">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="SpriteFont" uid="3">
+                    <properties>
+                        <character-width>88</character-width>
+                        <character-height>100</character-height>
+                        <character-set>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;</character-set>
+                        <text>Example Text</text>
+                        <scale>1</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>0</character-spacing>
+                        <line-height>0</line-height>
+                        <char-width-json>{&quot;&quot;c2array&quot;&quot;:true,&quot;&quot;size&quot;&quot;:[2,37,1],&quot;&quot;data&quot;&quot;:[[[22],[25],[27],[30],[32],[33],[34],[35],[36],[38],[40],[41],[42],[43],[44],[45],[47],[48],[49],[50],[51],[53],[54],[55],[57],[58],[59],[60],[61],[62],[64],[65],[66],[67],[68],[71],[86]],[[&quot;&quot;&apos;&quot;&quot;],[&quot;&quot;|&quot;&quot;],[&quot;&quot;,&quot;&quot;],[&quot;&quot;.;:&quot;&quot;],[&quot;&quot;°&quot;&quot;],[&quot;&quot;`&quot;&quot;],[&quot;&quot;\&quot;&quot;&quot;&quot;],[&quot;&quot;-&quot;&quot;],[&quot;&quot;!()&lt;&gt;&quot;&quot;],[&quot;&quot;Ii&quot;&quot;],[&quot;&quot;1&quot;&quot;],[&quot;&quot;[]=&quot;&quot;],[&quot;&quot;*&quot;&quot;],[&quot;&quot;£&quot;&quot;],[&quot;&quot;2?+$&quot;&quot;],[&quot;&quot;Jj3\\/&quot;&quot;],[&quot;&quot;Ss5&quot;&quot;],[&quot;&quot;#&quot;&quot;],[&quot;&quot;7_&quot;&quot;],[&quot;&quot;Ll6~&quot;&quot;],[&quot;&quot;EFef89&quot;&quot;],[&quot;&quot;0&quot;&quot;],[&quot;&quot;Cc&quot;&quot;],[&quot;&quot;4&quot;&quot;],[&quot;&quot;NZnz&amp;&quot;&quot;],[&quot;&quot;Tt&quot;&quot;],[&quot;&quot;ABPabp&quot;&quot;],[&quot;&quot;Vv€&quot;&quot;],[&quot;&quot;GOQRgoqr&quot;&quot;],[&quot;&quot;DUdu&quot;&quot;],[&quot;&quot;Yy&quot;&quot;],[&quot;&quot;Kk@&quot;&quot;],[&quot;&quot;Xx&quot;&quot;],[&quot;&quot;Hh&quot;&quot;],[&quot;&quot;%&quot;&quot;],[&quot;&quot;Mm&quot;&quot;],[&quot;&quot;Ww&quot;&quot;]]]}</char-width-json>
+                        <space-char-width>-1</space-char-width>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>246</x>
+                        <y>103</y>
+                        <z>0</z>
+                        <width>884</width>
+                        <height>164</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Animals" uid="5">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>352</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Animals" uid="6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>640</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Animals" uid="7">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>928</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>200</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+    </layers>
+    <nonworld-instances />
+    <effects />
+</c2layout>

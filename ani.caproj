@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>cbc2bgzebvkx</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Chris Kent" id="SpriteFontPlus" version="1">SpriteFont+</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Firefox</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="953387033694276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609360405669993" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\bg.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btPlay" sid="444826923178153">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="138533271793875" speed="5">
+                    <frame duration="1" hotspotX="0.501348" hotspotY="0.5" original-source="D:\1prog\Construct\ani\Play.png">
+                        <collision-poly>
+                            <point x="0.150943" y="0.150538" />
+                            <point x="0.498652" y="0.00537634" />
+                            <point x="0.849057" y="0.150538" />
+                            <point x="0.994609" y="0.5" />
+                            <point x="0.849057" y="0.849462" />
+                            <point x="0.498652" y="0.994624" />
+                            <point x="0.150943" y="0.849462" />
+                            <point x="0.00539084" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="253482684803585">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246876869420396" speed="5">
+                    <frame duration="1" hotspotX="0.500858" hotspotY="0.5" original-source="D:\1prog\Construct\ani\gameOver.png">
+                        <collision-poly>
+                            <point x="0.145798" y="0.146048" />
+                            <point x="0.499142" y="0" />
+                            <point x="0.852487" y="0.147766" />
+                            <point x="0.998285" y="0.5" />
+                            <point x="0.852487" y="0.852234" />
+                            <point x="0.499142" y="1" />
+                            <point x="0.145798" y="0.853952" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="822260808567645">
+            <plugin id="SpriteFontPlus" />
+            <texture original-source="D:\1prog\Construct\ani\SpriteFont_88x100.png" />
+        </object-type>
+        <object-type name="Choice" sid="819171221003325">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530565295238627" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="275957998513341">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591624091334563" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Animals" sid="251786750371633">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="20" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991496599994837" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\6.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\7.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\8.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\9.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\11.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\12.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\13.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\14.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\15.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\16.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\17.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\18.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\19.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1prog\Construct\ani\20.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>GameOver.xml</layout>
+        <layout>Game.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>eMenu.xml</event-sheet>
+        <event-sheet>eGameOver.xml</event-sheet>
+        <event-sheet>eGame.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder>
+        <file name="correct.m4a" />
+        <file name="correct.ogg" />
+        <file name="lose.m4a" />
+        <file name="lose.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
